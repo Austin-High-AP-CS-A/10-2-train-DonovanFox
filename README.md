@@ -20,7 +20,7 @@ draw the RailCar object that is part of every subclass of RailCar.
 how polymorphism can select the correct method for each object. 
  
  
-The essence of this assignment is to create a Train class that neatly encapsulates all the necessary classes in one container.  Sometimes student underestimate the challenge of an assignment. This may even cause concentration on other academic subjects that seem more pressing. This assignment is challenging. The 80-point version is relatively easy, but for the 100-point version you need to overcome some interesting obstacles that will test if you truly understand inheritance. It is an ideal team project for two or three people to work on together and solve the problems. 
+The essence of this assignment is to create a Train class that neatly encapsulates all the necessary classes in one container.  Sometimes student underestimate the challenge of an assignment. This may even cause concentration on other academic subjects that seem more pressing. This assignment is challenging. The 80-point version is relatively easy, but for the 100-point version you need to overcome some interesting obstacles that will test if you truly understand inheritance. It is an ideal team project for two or three people to work on together and solve the problems. Among us, Among us.
  
 ## 80-Point Version Specifics  
 The 80-Point version requires that all methods connected with the train program are contained in a Train class or that they are contained in a class that has its object as attribute in the Train class. 
