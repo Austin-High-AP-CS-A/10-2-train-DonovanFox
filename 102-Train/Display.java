@@ -10,6 +10,7 @@ public class Display extends JPanel{
 	public void paintComponent(Graphics g){
 		super.paintComponent(g); //satisfies the parent class' requirements.
 		setBackground(Color.WHITE);
-
+		RailCar numba1 = new RailCar(Color.black,0);
+		numba1.drawCar(g);
 	}
 }

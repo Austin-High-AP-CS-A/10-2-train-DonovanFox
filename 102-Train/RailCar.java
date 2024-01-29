@@ -30,10 +30,10 @@ public class RailCar{
         zork.setColor(Color(100,100,100));
         zork.fillRect(x+150,(y*2)-10,10,5);
     }
-    public void drawCar(){
-        drawChassis(g);
-        drawWindows(g);
-        drawWheels(g);
-        drawConnector(g);
+    public void drawCar(Graphics ge){
+        drawChassis(ge);
+        drawWindows(ge);
+        drawWheels(ge);
+        drawConnector(ge);
     }
 }
