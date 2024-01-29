@@ -17,7 +17,7 @@ public class RailCar{
         boogeur.fillRect(x,y,150,125);
     }
     public void drawWheels(Graphics seven){
-        seven.setColor(color.black);
+        seven.setColor(Color.black);
         seven.fillOval(x+30,(y*2)-10,20,20);
         seven.fillOval(x-120,(y*2)-10,20,20);
     }
