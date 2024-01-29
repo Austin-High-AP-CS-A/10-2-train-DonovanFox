@@ -10,6 +10,6 @@ public class Main{
 		frame.add(new Display());
 		frame.setVisible(true);
 		RailCar numba1 = new RailCar(Color.black,0);
-		RailCar.drawCar();
+		numba1.drawCar();
 	}
 }
