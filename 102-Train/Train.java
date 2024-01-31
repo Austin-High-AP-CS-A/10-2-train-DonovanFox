@@ -3,7 +3,7 @@ import java.awt.*;
 import java.util.ArrayList;
 
 public class Train{
-    public ArrayList<RailCar> cars;
+    public ArrayList<RailCar> cars = new ArrayList<>();
     private int numCars;
     public Train(){
         numCars = 0;
