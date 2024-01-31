@@ -21,7 +21,8 @@ public class RailCar{
         seven.fillOval(x+20,(y*2)-10,20,20);
         seven.fillOval(x+110,(y*2)-10,20,20);
     }
-    public void drawCar(Graphics ge){
+    public void drawCar(Graphics ge, int posfromind){
+        carPos = posfromind;
         drawChassis(ge);
         drawWheels(ge);
     }

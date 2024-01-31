@@ -14,8 +14,8 @@ public class PassengerCar extends RailCar {
         zork.setColor(new Color(100,100,100));
         zork.fillRect(x+150,(y*2)-10,10,5);
     }
-    public void drawCar(Graphics g){
-        super.drawCar(g);
+    public void drawCar(Graphics g, int ni){
+        super.drawCar(g,ni);
         drawWindows(g);
         drawConnector(g);
     }
