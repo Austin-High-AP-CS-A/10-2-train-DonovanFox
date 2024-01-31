@@ -9,7 +9,7 @@ public class RailCar{
     public RailCar(Color color, int pos){
         colour = color;
         carPos = pos;
-        x = 160*carPos;
+        x = (160*carPos)+30;
         y = 125;
     }
     public void drawChassis(Graphics boogeur){
@@ -18,8 +18,8 @@ public class RailCar{
     }
     public void drawWheels(Graphics seven){
         seven.setColor(Color.black);
-        seven.fillOval(x+30,(y*2)-10,20,20);
-        seven.fillOval(x-120,(y*2)-10,20,20);
+        seven.fillOval(x+20,(y*2)-10,20,20);
+        seven.fillOval(x+110,(y*2)-10,20,20);
     }
     public void drawWindows(Graphics toledo){
         toledo.setColor(new Color(200,200,255));
