@@ -15,5 +15,8 @@ public class Display extends JPanel{
 		RailCar numba3 = new RailCar(Color.red,2);
 		RailCar numba4 = new RailCar(Color.green,3);
 		numba1.drawCar(g);
+		numba2.drawCar(g);
+		numba3.drawCar(g);
+		numba4.drawCar(g);
 	}
 }
