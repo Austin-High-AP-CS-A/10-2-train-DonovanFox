@@ -9,6 +9,13 @@ public class Train{
         numCars = 0;
     }
 
+    public void addCar(String type, Color callor){
+        if(type.equals("PassengerCar")){
+            cars.add(new PassengerCar(callor, numCars));
+            numCars++;
+        }
+    }
+
     public void addCar(String type, Color callor, int posi){
         if(type.equals("PassengerCar")){
             cars.add(posi, new PassengerCar(callor, posi));
