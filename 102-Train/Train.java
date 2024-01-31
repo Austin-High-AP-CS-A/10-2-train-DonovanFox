@@ -22,4 +22,10 @@ public class Train{
             numCars++;
         }
     }
+
+    public void showCars(Graphics g){
+        for(RailCar car: cars){
+            car.drawCar(g,cars.indexOf(car));
+        }
+    }
 }
